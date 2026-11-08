@@ -258,27 +258,33 @@ Une anomalie critique non résolue (sécurité, cohérence financière, isolatio
 | D-B4-01 à D-B4-19 | Décisions de la séance B4 | **VALIDÉ** (D-B4-03 en principe, à tester ; D-B4-08 REPORTÉ ; D-B4-13 en principe, durées contractuelles) |
 | C1–C8 | Huit contradictions | **VALIDÉ** (règles) · BLOQUANT jusqu'à réussite des tests ; C7 jusqu'aux mesures du pilote |
 | Porte 2 | Critères (B4 §6) | **VALIDÉ** |
-| D-C0-01 | Code de la preuve de faisabilité jetable par défaut ; réutilisation sur décision explicite | À ARBITRER (Q35) |
-| D-C0-02 | Tri des tests : technique en Phase C, logique métier à la recette du MVP | À ARBITRER (Q32) |
-| D-C0-03 | Tests T67 à T78 (authentification, isolation, sauvegarde, appareils, performance) | À ARBITRER (Q32) |
-| D-C0-04 | Hypothèse d'architecture à tester (§5.7) ; PWA seule écartée pour l'établissement | À ARBITRER (Q33) |
-| D-C0-05 | Comparaison de deux options de synchronisation (moteur existant / file d'envoi spécifique) | À ARBITRER (Q33) |
-| D-C0-06 | Communication locale : liaison directe d'abord, QR en repli, réseau local facultatif | À ARBITRER (Q33) |
-| D-C0-07 | Trois approches d'isolation comparées en L6 | PROPOSÉ |
+| D-C0-01 | Code de la preuve de faisabilité jetable par défaut ; réutilisation sur décision explicite | **VALIDÉ** (Q35) |
+| D-C0-02 | Tri des tests : technique en Phase C, logique métier à la recette du MVP | **VALIDÉ** (Q32) |
+| D-C0-03 | Tests T67 à T78 (authentification, isolation, sauvegarde, appareils, performance) | **VALIDÉ** (Q32) |
+| D-C0-04 | Hypothèse d'architecture à tester (§5.7) ; PWA seule écartée pour l'établissement | **VALIDÉ** comme hypothèse à tester (Q33) |
+| D-C0-05 | Comparaison de deux options de synchronisation (moteur existant / file d'envoi spécifique) | **VALIDÉ** (Q33) |
+| D-C0-06 | Communication locale : liaison directe d'abord, QR en repli, réseau local facultatif | **VALIDÉ** (Q33) |
+| D-C0-07 | Trois approches d'isolation comparées en L6 | **VALIDÉ** |
 | D-C0-08 | Accès propriétaire (même application ou web) | REPORTÉ (Phase E) |
 | D-C0-09 | Localisation de l'hébergement au regard de la loi sur les données | À VÉRIFIER (lié à D-A1-17) |
-| D-C0-10 | Ordre des lots et règle d'arrêt sur L2 | À ARBITRER (Q34) |
-| D-C0-11 | Conditions de test (appareils d'entrée de gamme, coupures, horloge, volume, données fictives) | PROPOSÉ |
-| D-C0-12 | Budget de la Phase C : après consultation d'au moins 2 prestataires, libéré par lots | PROPOSÉ |
-| D-C0-13 | Exigences de gouvernance et de propriété intellectuelle avant toute mission | À ARBITRER (Q35) · contrats sur autorisation, validation juridique |
-| D-C0-14 | Revue technique indépendante avant la Porte 3 | PROPOSÉ |
-| D-C0-15 | Critères de la Porte 3 | À ARBITRER (Q36) |
+| D-C0-10 | Ordre des lots et règle d'arrêt sur L2 | **VALIDÉ** (Q34) |
+| D-C0-11 | Conditions de test (appareils d'entrée de gamme, coupures, horloge, volume, données fictives) | **VALIDÉ** |
+| D-C0-12 | Budget de la Phase C : après consultation d'au moins 2 prestataires, libéré par lots | **VALIDÉ** |
+| D-C0-13 | Exigences de gouvernance et de propriété intellectuelle avant toute mission | **VALIDÉ** (Q35) · contrats sur autorisation, validation juridique |
+| D-C0-14 | Revue technique indépendante avant la Porte 3 | **VALIDÉ** |
+| D-C0-15 | Critères de la Porte 3 | **VALIDÉ** (Q36) |
 | D-C0-16 | Disponibilité et coût du profil technique à Ouagadougou | À VÉRIFIER |
 | D-C0-17 | Exécution de la Phase C : après Portes 1 et 2, sur autorisation explicite | **VALIDÉ** (règle absolue du projet) |
 
 ---
 
-## 13. Prochaine étape proposée
+## 13. Validation (fin de séance)
+
+Le fondateur a validé l'ensemble : Q32 à Q36. Le tri des tests, les tests T67 à T78, l'hypothèse d'architecture **à tester**, l'ordre des lots avec la règle d'arrêt sur L2, les exigences de gouvernance, le code jetable par défaut et les critères de la Porte 3 sont figés. L'exécution reste conditionnée aux Portes 1 et 2 et à une autorisation explicite.
+
+---
+
+## 14. Prochaine étape proposée
 
 | Option | Contenu |
 |---|---|

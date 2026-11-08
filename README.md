@@ -21,3 +21,7 @@ Comptes rendus des séances de brainstorming structuré (aucun livrable final, a
 ## Phase C — Preuve de faisabilité technique
 
 - [Séance C0 — Cadrage de la preuve de faisabilité](docs/phase-C/seance-C0-cadrage-preuve-faisabilite.md)
+
+## Phase D — Validation financière
+
+- [Séance D0 — Structure du modèle financier](docs/phase-D/seance-D0-structure-modele-financier.md)
