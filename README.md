@@ -17,3 +17,7 @@ Comptes rendus des séances de brainstorming structuré (aucun livrable final, a
 - [Séance B2 — C3 journée après minuit, C4 cumul des rôles, point fiscal FEC/SECeF](docs/phase-B/seance-B2-C3-C4-journee-cumul-roles.md)
 - [Séance B3 — C5 paiements Mobile Money, C6 inventaires en cours de service](docs/phase-B/seance-B3-C5-C6-mobile-money-inventaires.md)
 - [Séance B4 — C7 rentabilité du support, C8 abonnement expiré hors ligne, critères Porte 2](docs/phase-B/seance-B4-C7-C8-support-licence.md)
+
+## Phase C — Preuve de faisabilité technique
+
+- [Séance C0 — Cadrage de la preuve de faisabilité](docs/phase-C/seance-C0-cadrage-preuve-faisabilite.md)

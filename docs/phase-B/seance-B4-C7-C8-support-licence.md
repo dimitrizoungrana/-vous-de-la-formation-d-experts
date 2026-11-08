@@ -294,31 +294,39 @@ La Porte 2 (résolution des contradictions métier) **ne peut être tenue qu'apr
 | D-B3-01 à D-B3-07, D-B3-09 à D-B3-13, D-B3-15, D-B3-16 | Décisions de la séance B3 | **VALIDÉ** |
 | D-B3-08 | Intégration opérateur Mobile Money | REPORTÉ (Phase C/D) |
 | D-B3-14 | Emballages consignés | À VÉRIFIER SUR LE TERRAIN |
-| D-B4-01 | Aucune situation de service ou de fermeture ne nécessite le support (M44) | À ARBITRER (Q29) |
-| D-B4-02 | Assistance aux heures ouvrées, pas de nuit (M45) ; canaux téléphone et messagerie (M46) | À ARBITRER (Q29) |
-| D-B4-03 | Offre encadrée avec services payants (M47) | À ARBITRER (Q28) · modification de l'offre |
-| D-B4-04 | Référent obligatoire pour tous les clients (M48) | À ARBITRER (Q29) |
-| D-B4-05 | Installation standardisée en 4 temps, modèles de catalogue, regroupement géographique (M49) | À ARBITRER (Q29) |
-| D-B4-06 | Accès d'assistance accordé par le propriétaire, limité, temporaire, journalisé (M50) | À ARBITRER (Q29) |
-| D-B4-07 | Journal de support ; plafond de temps par client critère des Portes 5 et 6 (M51) | À ARBITRER (Q29) · valeur en Phase D |
+| D-B4-01 | Aucune situation de service ou de fermeture ne nécessite le support (M44) | **VALIDÉ** (Q29) |
+| D-B4-02 | Assistance aux heures ouvrées, pas de nuit (M45) ; canaux téléphone et messagerie (M46) | **VALIDÉ** (Q29) |
+| D-B4-03 | Offre encadrée avec services payants (M47) | **VALIDÉ en principe** (Q28) · à tester en démo et au pilote avant adoption |
+| D-B4-04 | Référent obligatoire pour tous les clients (M48) | **VALIDÉ** (Q29) |
+| D-B4-05 | Installation standardisée en 4 temps, modèles de catalogue, regroupement géographique (M49) | **VALIDÉ** (Q29) |
+| D-B4-06 | Accès d'assistance accordé par le propriétaire, limité, temporaire, journalisé (M50) | **VALIDÉ** (Q29) |
+| D-B4-07 | Journal de support ; plafond de temps par client critère des Portes 5 et 6 (M51) | **VALIDÉ** (Q29) · valeur en Phase D |
 | D-B4-08 | Part de l'abonnement allouée au support (M52) | REPORTÉ (Phase D) |
-| D-B4-09 | Licence locale signée + 7 jours de grâce (M53) | À ARBITRER (Q30) |
-| D-B4-10 | Suspension progressive à la clôture de la journée en cours (M54) | À ARBITRER (Q30) |
-| D-B4-11 | Mode suspendu : consultation et export toujours possibles (M55) | À ARBITRER (Q30) |
-| D-B4-12 | Code de réactivation hors ligne (M56) | À ARBITRER (Q30) · faisabilité Phase C |
-| D-B4-13 | Conservation des données après suspension et préavis de suppression (M57) | À ARBITRER · validation juridique |
-| D-B4-14 | Rappels avant échéance et pendant la grâce (M58) | À ARBITRER (Q30) |
-| D-B4-15 | Contournement par l'horloge : risque résiduel détecté (M59) | À ARBITRER (Q30) |
-| D-B4-16 | Mesures T53 à T58 (pilote) et tests T59 à T66 (Phase C) | PROPOSÉ |
-| D-B4-17 | Rotation du personnel à relever en Phase A si mentionnée | PROPOSÉ |
-| D-B4-18 | Entité juridique (Q8) bloquante avant le lancement commercial | PROPOSÉ (découle de C8) |
-| D-B4-19 | Critères de la Porte 2 (§6) | À ARBITRER (Q31) |
-| C7 | Rentabilité du support | À ARBITRER · mesures au pilote |
-| C8 | Abonnement expiré hors ligne | À ARBITRER · BLOQUANT jusqu'à réussite des tests T60–T66 |
+| D-B4-09 | Licence locale signée + 7 jours de grâce (M53) | **VALIDÉ** (Q30) |
+| D-B4-10 | Suspension progressive à la clôture de la journée en cours (M54) | **VALIDÉ** (Q30) |
+| D-B4-11 | Mode suspendu : consultation et export toujours possibles (M55) | **VALIDÉ** (Q30) |
+| D-B4-12 | Code de réactivation hors ligne (M56) | **VALIDÉ** (Q30) · faisabilité Phase C |
+| D-B4-13 | Conservation des données après suspension et préavis de suppression (M57) | **VALIDÉ en principe** · durées à fixer contractuellement, validation juridique |
+| D-B4-14 | Rappels avant échéance et pendant la grâce (M58) | **VALIDÉ** (Q30) |
+| D-B4-15 | Contournement par l'horloge : risque résiduel détecté (M59) | **VALIDÉ** (Q30) |
+| D-B4-16 | Mesures T53 à T58 (pilote) et tests T59 à T66 (Phase C) | **VALIDÉ** |
+| D-B4-17 | Rotation du personnel à relever en Phase A si mentionnée | **VALIDÉ** |
+| D-B4-18 | Entité juridique (Q8) bloquante avant le lancement commercial | **VALIDÉ** |
+| D-B4-19 | Critères de la Porte 2 (§6) | **VALIDÉ** (Q31) |
+| C7 | Rentabilité du support | **VALIDÉ** · mesures au pilote |
+| C8 | Abonnement expiré hors ligne | **VALIDÉ** · BLOQUANT jusqu'à réussite des tests T60–T66 |
 
 ---
 
-## 10. Prochaine étape proposée
+## 10. Validation (fin de séance)
+
+Le fondateur a validé l'ensemble : Q28 (en principe, offre encadrée **à tester** avant adoption), Q29, Q30, Q31, et les valeurs par défaut M44 à M59. Les huit contradictions C1 à C8 ont désormais des règles validées. Elles restent **BLOQUANTES** jusqu'à la réussite de leurs tests (C7 : jusqu'aux mesures du pilote). Les critères de la Porte 2 (§6) sont figés.
+
+**Conséquence à suivre** : l'offre encadrée (services payants) doit être ajoutée au script de démonstration (séance A3, §5.4) sous forme de question de réaction, **sans** annonce de tarif tant que ces services ne sont pas chiffrés.
+
+---
+
+## 11. Prochaine étape proposée
 
 La revue des huit contradictions est terminée. Trois suites possibles :
 
