@@ -276,28 +276,36 @@ Si les observations confirment que les casiers et bouteilles vides sont un enjeu
 |---|---|---|
 | D-B2-01 à D-B2-15, D-B2-17 | Décisions de la séance B2 | **VALIDÉ** |
 | D-B2-16 | Facture électronique certifiée | VÉRIFICATION LANCÉE · premiers résultats non concluants (B2 §9) |
-| D-B3-01 | Vérification uniquement du côté du compte récepteur | À ARBITRER (Q24) |
-| D-B3-02 | Numéros officiels ; paiement sur numéro non officiel = argent détenu par le receveur (M27, M28) | À ARBITRER (Q24) |
-| D-B3-03 | Référence unique obligatoire ; paiement partiel déclaré pour son montant réel (M29) | À ARBITRER (Q24) · saisie à tester |
-| D-B3-04 | Statuts déclaré / vérifié / rapproché et leurs effets (M30, M31) | À ARBITRER (Q24) |
-| D-B3-05 | Paiement non vérifié au-delà du délai = écart du déclarant (M32) | À ARBITRER (Q24) · délai après pilote |
-| D-B3-06 | Retraits et transferts Mobile Money = trésorerie, jamais ventes | PROPOSÉ (découle des règles non négociables) |
-| D-B3-07 | Pas de lecture automatique des SMS (M33) | À ARBITRER (Q25) |
-| D-B3-08 | Étude d'intégration opérateur ou agrégateur (M34) | À ARBITRER (Q25) → REPORTÉ en Phase C/D |
-| D-B3-09 | Dispositif d'inventaire (M35 à M38) | À ARBITRER (Q26) |
-| D-B3-10 | Comptage à l'aveugle, un recomptage (M39) | À ARBITRER (Q26) |
-| D-B3-11 | Saisie en conditionnements réels (M40) | À ARBITRER (Q26) |
-| D-B3-12 | Écarts catégorisés, jamais corrigés automatiquement (M41) | À ARBITRER (Q26) |
-| D-B3-13 | Valorisation double ; prix d'achat obligatoire au catalogue (M42) | À ARBITRER (Q26, Q27) |
+| D-B3-01 | Vérification uniquement du côté du compte récepteur | **VALIDÉ** (Q24) |
+| D-B3-02 | Numéros officiels ; paiement sur numéro non officiel = argent détenu par le receveur (M27, M28) | **VALIDÉ** (Q24) |
+| D-B3-03 | Référence unique obligatoire ; paiement partiel déclaré pour son montant réel (M29) | **VALIDÉ** (Q24) · saisie à tester |
+| D-B3-04 | Statuts déclaré / vérifié / rapproché et leurs effets (M30, M31) | **VALIDÉ** (Q24) |
+| D-B3-05 | Paiement non vérifié au-delà du délai = écart du déclarant (M32) | **VALIDÉ** (Q24) · délai après pilote |
+| D-B3-06 | Retraits et transferts Mobile Money = trésorerie, jamais ventes | **VALIDÉ** |
+| D-B3-07 | Pas de lecture automatique des SMS (M33) | **VALIDÉ** (Q25) |
+| D-B3-08 | Étude d'intégration opérateur ou agrégateur (M34) | **REPORTÉ** en Phase C/D (Q25) |
+| D-B3-09 | Dispositif d'inventaire (M35 à M38) | **VALIDÉ** (Q26) |
+| D-B3-10 | Comptage à l'aveugle, un recomptage (M39) | **VALIDÉ** (Q26) |
+| D-B3-11 | Saisie en conditionnements réels (M40) | **VALIDÉ** (Q26) |
+| D-B3-12 | Écarts catégorisés, jamais corrigés automatiquement (M41) | **VALIDÉ** (Q26) |
+| D-B3-13 | Valorisation double ; prix d'achat obligatoire au catalogue (M42) | **VALIDÉ** (Q26, Q27) |
 | D-B3-14 | Emballages consignés (M43) | À VÉRIFIER SUR LE TERRAIN (H18) |
-| D-B3-15 | Points Mobile Money à relever en Phase A (§3.7) | PROPOSÉ |
-| D-B3-16 | Tests T34 à T52 ajoutés au plan de la preuve de faisabilité | PROPOSÉ |
+| D-B3-15 | Points Mobile Money à relever en Phase A (§3.7) | **VALIDÉ** |
+| D-B3-16 | Tests T34 à T52 ajoutés au plan de la preuve de faisabilité | **VALIDÉ** |
 | C5 | Paiements Mobile Money | **BLOQUANT** jusqu'à réussite des tests T34–T42 |
 | C6 | Inventaires en cours de service | **BLOQUANT** jusqu'à réussite des tests T43–T52 |
 
 ---
 
-## 9. Prochaine étape proposée
+## 9. Validation (fin de séance)
+
+Le fondateur a validé l'ensemble : Q24 à Q27 et les valeurs par défaut M27 à M42. M34 (intégration opérateur) est reporté en Phase C/D ; M43 (emballages consignés) reste à vérifier sur le terrain. C5 et C6 restent **BLOQUANTS** jusqu'à la réussite des tests T34 à T52.
+
+**Conséquence à suivre** : le prix d'achat devient une donnée obligatoire du catalogue (Module 1). Sa saisie et sa mise à jour (variations de prix des fournisseurs) ajoutent une charge à l'installation et au support (C7).
+
+---
+
+## 10. Prochaine étape proposée
 
 **Séance B4 — C7 (rentabilité du support) et C8 (abonnement expiré hors ligne).**
 - C7 : combien coûtent réellement l'installation assistée et l'assistance à distance, au regard des décisions B1 à B3 (plusieurs appareils, anomalies à expliquer, inventaires, rapprochements), et comment les tenir dans un abonnement de 10 000 FCFA/mois.
