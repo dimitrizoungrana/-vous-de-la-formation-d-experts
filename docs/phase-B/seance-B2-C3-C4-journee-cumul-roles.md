@@ -247,29 +247,63 @@ Dans un établissement où une seule personne fait tout, l'outil **ne remplace p
 
 | ID | Élément | Statut |
 |---|---|---|
-| D-B2-01 | Journée d'exploitation explicite, nommée par sa date d'ouverture (M14) | À ARBITRER (Q20) |
-| D-B2-02 | Services et relèves avec remise individuelle (M15) | À ARBITRER (Q20) |
-| D-B2-03 | Heure de bascule théorique, filet de sécurité (M16) | À ARBITRER (Q20) · valeur À VÉRIFIER SUR LE TERRAIN |
-| D-B2-04 | Ouverture de journée par gérant ou caissier désigné (M17) | PROPOSÉ |
-| D-B2-05 | Clôture forcée d'une journée oubliée, justifiée et notifiée (M18) | PROPOSÉ |
-| D-B2-06 | Délai d'alerte « journée toujours ouverte » (M19) | PROPOSÉ · valeur après pilote |
-| D-B2-07 | Trois niveaux de contrôle toujours affichés (M20) | À ARBITRER (Q21) |
-| D-B2-08 | Matrice de contrôle par opération (M21) | À ARBITRER (Q21) · seuils avec les pilotes |
-| D-B2-09 | Complétude et niveau de contrôle distincts ; 5 statuts B1 inchangés (M22) | À ARBITRER (Q21) |
-| D-B2-10 | Propriétaire unique auto-validant ; associés mutuellement (M23) | À ARBITRER (Q21) |
-| D-B2-11 | Comptes personnels + charte d'utilisation (M24) | À ARBITRER (Q22) · rédaction sur autorisation, validation juridique |
-| D-B2-12 | Photo des justificatifs en cumul (M25) | À ARBITRER (Q21) · lié à Q4 |
-| D-B2-13 | Discours commercial honnête sur le cumul (M26) | À ARBITRER (Q22) · à intégrer au script de démo A3 |
-| D-B2-14 | Partage de codes : risque résiduel accepté et surveillé | PROPOSÉ |
-| D-B2-15 | Tests T19 à T33 ajoutés au plan de la preuve de faisabilité | PROPOSÉ |
-| D-B2-16 | **Facture électronique certifiée (FEC / SECeF) : applicabilité aux maquis et aux logiciels de caisse** | **À VÉRIFIER (Q23) · MAJEUR, potentiellement BLOQUANT pour le périmètre avant la Porte 2** |
-| D-B2-17 | Ne pas aborder le sujet fiscal de soi-même pendant les entretiens ; noter les mentions spontanées | PROPOSÉ |
+| D-B2-01 | Journée d'exploitation explicite, nommée par sa date d'ouverture (M14) | **VALIDÉ** (Q20) |
+| D-B2-02 | Services et relèves avec remise individuelle (M15) | **VALIDÉ** (Q20) |
+| D-B2-03 | Heure de bascule théorique, filet de sécurité (M16) | **VALIDÉ** (Q20) · valeur À VÉRIFIER SUR LE TERRAIN |
+| D-B2-04 | Ouverture de journée par gérant ou caissier désigné (M17) | **VALIDÉ** |
+| D-B2-05 | Clôture forcée d'une journée oubliée, justifiée et notifiée (M18) | **VALIDÉ** |
+| D-B2-06 | Délai d'alerte « journée toujours ouverte » (M19) | **VALIDÉ** en principe · valeur après pilote |
+| D-B2-07 | Trois niveaux de contrôle toujours affichés (M20) | **VALIDÉ** (Q21) |
+| D-B2-08 | Matrice de contrôle par opération (M21) | **VALIDÉ** (Q21) · seuils avec les pilotes |
+| D-B2-09 | Complétude et niveau de contrôle distincts ; 5 statuts B1 inchangés (M22) | **VALIDÉ** (Q21) |
+| D-B2-10 | Propriétaire unique auto-validant ; associés mutuellement (M23) | **VALIDÉ** (Q21) |
+| D-B2-11 | Comptes personnels + charte d'utilisation (M24) | **VALIDÉ** (Q22) · rédaction sur autorisation, validation juridique |
+| D-B2-12 | Photo des justificatifs en cumul (M25) | **VALIDÉ** (Q21) · lié à Q4 |
+| D-B2-13 | Discours commercial honnête sur le cumul (M26) | **VALIDÉ** (Q22) · à intégrer au script de démo A3 |
+| D-B2-14 | Partage de codes : risque résiduel accepté et surveillé | **VALIDÉ** |
+| D-B2-15 | Tests T19 à T33 ajoutés au plan de la preuve de faisabilité | **VALIDÉ** |
+| D-B2-16 | **Facture électronique certifiée (FEC / SECeF) : applicabilité aux maquis et aux logiciels de caisse** | **VÉRIFICATION LANCÉE** (Q23) · MAJEUR, potentiellement BLOQUANT pour le périmètre avant la Porte 2 |
+| D-B2-17 | Ne pas aborder le sujet fiscal de soi-même pendant les entretiens ; noter les mentions spontanées | **VALIDÉ** |
 | C3 | Journée d'exploitation après minuit | BLOQUANT jusqu'à réussite des tests T19–T24 |
 | C4 | Cumul des rôles | BLOQUANT jusqu'à réussite des tests T25–T33 |
 
 ---
 
-## 9. Prochaine étape proposée
+## 9. Validation (fin de séance)
+
+Le fondateur a validé l'ensemble : Q20, Q21, Q22, Q23 et les valeurs par défaut M14 à M26. Le registre du §8 est mis à jour. C3 et C4 restent **BLOQUANTS** jusqu'à la réussite des tests T19 à T33.
+
+### 9.1 Premier résultat de la vérification fiscale (Q23) — recherche documentaire, non concluante
+
+| Constat | Niveau de confiance |
+|---|---|
+| L'obligation d'émettre la FEC vise, selon la DGI, les contribuables relevant de la **Direction des grandes entreprises** et des **directions des moyennes entreprises** | Moyen (articles de presse reprenant la DGI) |
+| Jusqu'à la mise en service du système électronique, la **facture normalisée papier** reste valable pour les contribuables concernés | Moyen |
+| Les **éditeurs de logiciels de facturation** font partie de la première vague de distribution des systèmes (septembre 2026) | Moyen |
+| **Aucune source trouvée** ne précise un calendrier FEC pour les **micro-entreprises** (CME), régime probable de nombreux maquis | — |
+| Les dates d'entrée en vigueur divergent selon les sources (1er janvier 2025 / 1er juillet 2026) | Contradiction à lever |
+
+**Lecture prudente** : les maquis visés ne semblent pas, à ce stade, dans le premier périmètre de la FEC. Ce n'est **pas** une conclusion : le régime fiscal réel des clients cibles est lui-même à vérifier (H : quel régime ?), et l'obligation peut s'étendre.
+
+**Questions à poser à un point focal FEC de la DGI ou à un fiscaliste**
+1. Les établissements relevant de la contribution des micro-entreprises sont-ils concernés par la FEC, et selon quel calendrier ?
+2. Un logiciel de gestion de caisse qui émet des **tickets internes** (non fiscaux) est-il soumis à certification ?
+3. Si un client est assujetti à la FEC, l'outil doit-il s'interfacer avec un système certifié, et selon quelles modalités ?
+4. Quelles obligations de conservation et d'immutabilité des données s'appliquent aux ventes ?
+
+**Ajout proposé pour la Phase A** : relever, sans l'aborder de soi-même, le **régime fiscal** déclaré par le propriétaire quand il le mentionne, et toute consigne reçue sur la facture électronique.
+
+### 9.2 Sources complémentaires
+
+- [AllAfrica — La facture électronique certifiée officiellement lancée (janvier 2026)](https://fr.allafrica.com/stories/202601070191.html)
+- [AllAfrica — Article FEC (février 2026)](https://fr.allafrica.com/stories/202602040279.html)
+- [Lookuptax — Déploiement des dispositifs de facturation 2026](https://lookuptax.com/tax-changes/burkina-faso/einvoicing-device-rollout-2026)
+- [Lookuptax — Facture électronique certifiée 2026](https://lookuptax.com/tax-changes/burkina-faso/facture-electronique-certifiee-2026)
+- [Edicom — La facturation électronique au Burkina Faso](https://edicomgroup.com/fr/blog/facturation-electronique-burkina-faso-obligatoire)
+
+---
+
+## 10. Prochaine étape proposée
 
 **Séance B3 — C5 (paiements Mobile Money) et C6 (inventaires en cours de service).**
 - C5 : comment passer de « paiement déclaré » à « paiement vérifié » puis « rapproché », sur quel numéro les fonds arrivent, qui peut vérifier, et comment éviter les fausses déclarations et les doubles rapprochements.

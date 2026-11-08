@@ -15,3 +15,4 @@ Comptes rendus des séances de brainstorming structuré (aucun livrable final, a
 
 - [Séance B1 — C1 plusieurs appareils hors ligne, C2 clôture et opérations non synchronisées](docs/phase-B/seance-B1-C1-C2-hors-ligne-cloture.md)
 - [Séance B2 — C3 journée après minuit, C4 cumul des rôles, point fiscal FEC/SECeF](docs/phase-B/seance-B2-C3-C4-journee-cumul-roles.md)
+- [Séance B3 — C5 paiements Mobile Money, C6 inventaires en cours de service](docs/phase-B/seance-B3-C5-C6-mobile-money-inventaires.md)
