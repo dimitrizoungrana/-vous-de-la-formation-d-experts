@@ -284,33 +284,52 @@ Les autres décisions métier (M3, M4, M5, M6, M10, M11, M13) ont des valeurs pa
 |---|---|---|
 | D-A4-04 | 6 établissements observés | **VALIDÉ** (Q15) |
 | D-A4-11 | Règle d'arrêt anticipé | **VALIDÉ** (Q15) |
-| D-B1-01 | Trois familles de données (faits / états partagés / référentiels) | PROPOSÉ |
-| D-B1-02 | Interdiction de « la dernière modification gagne » pour les données financières | PROPOSÉ (découle des règles non négociables) |
-| D-B1-03 | Séquence par appareil, pas d'ordonnancement sur l'heure de l'appareil | PROPOSÉ |
-| D-B1-04 | Détection des trous de séquence et alerte au propriétaire | PROPOSÉ |
-| D-B1-05 | Modèle O4 + modes poste unique / multi-encaisseurs | À ARBITRER (Q16) |
-| D-B1-06 | Réseau local facultatif, jamais nécessaire à la cohérence | PROPOSÉ |
-| D-B1-07 | Règles du mode dégradé (§4.4) | PROPOSÉ |
-| D-B1-08 | Caisse individuelle par encaisseur (M2) | À VÉRIFIER SUR LE TERRAIN |
-| D-B1-09 | Traitement du trop-perçu (M3) | À ARBITRER |
-| D-B1-10 | Stock négatif autorisé avec alerte (M4) | PROPOSÉ |
-| D-B1-11 | Prix utilisé conservé, alerte si périmé (M5) | PROPOSÉ |
-| D-B1-12 | Transfert de commande entre serveurs (M6) | À ARBITRER |
-| D-B1-13 | Encaissement sur appareils de l'établissement (M7) | À ARBITRER (Q18) |
-| D-B1-14 | Clôture en deux temps, 5 statuts (M8) | À ARBITRER (Q17) |
-| D-B1-15 | Remise individuelle obligatoire (M9) | À ARBITRER (Q17) · À VÉRIFIER SUR LE TERRAIN |
-| D-B1-16 | Délai limite d'alerte (M10) | PROPOSÉ · valeur après pilote |
-| D-B1-17 | Déclaration d'appareil absent par une personne différente du préparateur (M11) | PROPOSÉ |
-| D-B1-18 | Opérations tardives rattachées au jour d'origine (M12) | À ARBITRER (Q19) |
-| D-B1-19 | Ouverture de service obligatoire par appareil (M13) | PROPOSÉ |
-| D-B1-20 | Tests T1 à T18 inscrits au plan de la preuve de faisabilité | PROPOSÉ |
+| D-B1-01 | Trois familles de données (faits / états partagés / référentiels) | **VALIDÉ** |
+| D-B1-02 | Interdiction de « la dernière modification gagne » pour les données financières | **VALIDÉ** |
+| D-B1-03 | Séquence par appareil, pas d'ordonnancement sur l'heure de l'appareil | **VALIDÉ** |
+| D-B1-04 | Détection des trous de séquence et alerte au propriétaire | **VALIDÉ** |
+| D-B1-05 | Modèle O4 + modes poste unique / multi-encaisseurs | **VALIDÉ** (Q16) |
+| D-B1-06 | Réseau local facultatif, jamais nécessaire à la cohérence | **VALIDÉ** |
+| D-B1-07 | Règles du mode dégradé (§4.4) | **VALIDÉ** |
+| D-B1-08 | Caisse individuelle par encaisseur (M2) | **VALIDÉ** en principe · À VÉRIFIER SUR LE TERRAIN |
+| D-B1-09 | Traitement du trop-perçu (M3) | **VALIDÉ** : rendu au client ou avoir, jamais absorbé en silence |
+| D-B1-10 | Stock négatif autorisé avec alerte (M4) | **VALIDÉ** |
+| D-B1-11 | Prix utilisé conservé, alerte si périmé (M5) | **VALIDÉ** |
+| D-B1-12 | Transfert de commande entre serveurs (M6) | **VALIDÉ** : le gérant, appareils connectés ou en présence des deux serveurs |
+| D-B1-13 | Encaissement sur appareils de l'établissement (M7) | **VALIDÉ** (Q18) · impact équipement à chiffrer (Q4) |
+| D-B1-14 | Clôture en deux temps, 5 statuts (M8) | **VALIDÉ** (Q17) |
+| D-B1-15 | Remise individuelle obligatoire (M9) | **VALIDÉ** (Q17) · À VÉRIFIER SUR LE TERRAIN |
+| D-B1-16 | Délai limite d'alerte (M10) | **VALIDÉ** en principe · valeur fixée après pilote |
+| D-B1-17 | Déclaration d'appareil absent par une personne différente du préparateur (M11) | **VALIDÉ** |
+| D-B1-18 | Opérations tardives rattachées au jour d'origine (M12) | **VALIDÉ** (Q19) |
+| D-B1-19 | Ouverture de service obligatoire par appareil (M13) | **VALIDÉ** |
+| D-B1-20 | Tests T1 à T18 inscrits au plan de la preuve de faisabilité | **VALIDÉ** |
 | D-B1-21 | Séquencement des pilotes (poste unique d'abord) | REPORTÉ (décision en Phase E) |
 | C1 | Plusieurs appareils hors ligne | **BLOQUANT** jusqu'à réussite des tests T1–T11 |
 | C2 | Clôture et opérations non synchronisées | **BLOQUANT** jusqu'à réussite des tests T12–T18 |
 
 ---
 
-## 11. Prochaine étape proposée
+## 11. Validation (fin de séance)
+
+Le fondateur a validé l'ensemble des recommandations de la séance : Q16, Q17, Q18, Q19 et les valeurs par défaut des décisions métier M3 à M13. Le registre du §10 est mis à jour.
+
+**Ce que la validation ne change pas**
+- C1 et C2 restent **BLOQUANTS** tant que les tests T1 à T18 n'ont pas réussi en preuve de faisabilité : on a validé une conception, pas un résultat.
+- M2 (caisse individuelle) et M9 (remise individuelle obligatoire) restent **à vérifier sur le terrain** pendant les observations de fermeture.
+- Le séquencement des pilotes reste **REPORTÉ**.
+
+**Conséquences à suivre**
+
+| Conséquence | Explication | Où elle sera traitée |
+|---|---|---|
+| **Coût d'équipement accru en mode multi-encaisseurs** | Avec Q18, chaque personne qui encaisse utilise un appareil de l'établissement. Un snack avec 3 serveurs encaisseurs et un caissier a besoin de 4 appareils. La politique d'équipement (Q4) et le modèle financier doivent en tenir compte | Q4 (après les démos), Phase D |
+| **L'avoir est une dette envers le client** | Un trop-perçu transformé en avoir doit être identifié et suivi comme un crédit inversé (bénéficiaire, montant, utilisation) | Séance B3 ou B4, avec les règles de crédit |
+| **La remise individuelle doit rester rapide** | À 2 h du matin, une remise trop longue sera contournée. Sa durée réelle est à mesurer pendant les observations et à tester en maquette | Observations Phase A ; Phase C |
+
+---
+
+## 12. Prochaine étape proposée
 
 **Séance B2 — C3 (journée d'exploitation après minuit) et C4 (cumul des rôles)**.
 - C3 est directement lié à C2 : le rattachement des opérations tardives à « leur journée d'origine » suppose une définition fiable de la journée d'exploitation.
