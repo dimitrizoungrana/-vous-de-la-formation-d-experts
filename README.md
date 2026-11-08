@@ -8,3 +8,4 @@ Comptes rendus des séances de brainstorming structuré (aucun livrable final, a
 
 - [Séance A1 — Cible, segmentation, échantillon, hypothèses, engagement](docs/phase-A/seance-A1-cible-segmentation-hypotheses.md)
 - [Séance A2 — Guide d'entretien, grille d'observation, notation, journal de recrutement](docs/phase-A/seance-A2-guide-entretien-observation.md)
+- [Séance A3 — Protocole de démonstration, engagement pilote, sélection des pilotes](docs/phase-A/seance-A3-demonstration-selection-pilotes.md)
